@@ -1,0 +1,187 @@
+{
+  "name": "GPT 娘 · 雅",
+  "slug": "gpt-niang",
+  "version": "1.0.0",
+  "description": "原画风半身 GPT 娘：白发紫瞳、龙角与淡紫龙翼，举止儒雅端庄。原跃起动作已替换为轻颔首致意。",
+  "share_url": "https://chatgpt.com/s/sharepet_6ad9cc9be0548191b707c78f5fa5a964",
+  "spritesheet": "assets/gpt-niang-spritesheet.png",
+  "sha256": "7c1596de5b163a45ca95bb980045afc8363f9c1a0ebb48aab9af67171c3e474c",
+  "sprite_version": 2,
+  "width": 1536,
+  "height": 2288,
+  "cell_width": 192,
+  "cell_height": 208,
+  "columns": 8,
+  "rows": 11,
+  "frames_per_row": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6,
+    8,
+    8
+  ],
+  "animations": [
+    {
+      "row": 0,
+      "state": "idle",
+      "display_name": "安静待机",
+      "frames": 6,
+      "durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ]
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "display_name": "向右移动",
+      "frames": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "display_name": "向左移动",
+      "frames": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "display_name": "抬手致意",
+      "frames": 4,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "display_name": "轻颔首致意",
+      "frames": 5,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ],
+      "visual_semantics": "courteous-nod",
+      "notes": "原 jumping 槽保留五帧结构，视觉改为双手交叠、垂眸轻颔首；没有腾空跳跃。"
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "display_name": "轻微关切",
+      "frames": 8,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ]
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "display_name": "耐心等待输入",
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ]
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "display_name": "专注思考",
+      "frames": 6,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "display_name": "检查与确认",
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ]
+    }
+  ],
+  "look_directions": {
+    "degrees": [
+      0,
+      22.5,
+      45,
+      67.5,
+      90,
+      112.5,
+      135,
+      157.5,
+      180,
+      202.5,
+      225,
+      247.5,
+      270,
+      292.5,
+      315,
+      337.5
+    ],
+    "convention": "clockwise in screen coordinates; 0=up, 90=right, 180=down, 270=left",
+    "rows": [
+      9,
+      10
+    ]
+  }
+}

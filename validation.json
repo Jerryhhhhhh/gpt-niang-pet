@@ -1,0 +1,50 @@
+{
+  "valid": true,
+  "sha256": "7c1596de5b163a45ca95bb980045afc8363f9c1a0ebb48aab9af67171c3e474c",
+  "file_size_bytes": 3218230,
+  "mime_type": "image/png",
+  "width": 1536,
+  "height": 2288,
+  "sprite_version": 2,
+  "cell_width": 192,
+  "cell_height": 208,
+  "required_frames": 73,
+  "frames_per_row": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6,
+    8,
+    8
+  ],
+  "checks": {
+    "structural_validation": true,
+    "transparent_background": true,
+    "unused_cells_empty": true,
+    "quality_validation": true,
+    "pets_preflight": true,
+    "independent_visual_review": true,
+    "blind_direction_review": true
+  },
+  "blind_review": {
+    "reviewers": 3,
+    "pairs": 14,
+    "errors": []
+  },
+  "motion": {
+    "row4_semantics": "courteous-nod",
+    "body_baseline_variation_px": 1,
+    "landing_delta_px": 0,
+    "maximum_look_center_drift_px": 2.5,
+    "maximum_look_width_ratio": 1.2233009708737863
+  },
+  "review_notes": [
+    "原 jumping 槽按创作者要求改为静稳的颔首致意，未要求腾空位移；结构、帧数与其他质量检查保持不变。",
+    "部分转向相邻帧的差异指标较高；独立视觉复核确认位置和脸部高度稳定，未见阻断级跳变。"
+  ]
+}
