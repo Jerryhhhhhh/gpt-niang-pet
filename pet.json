@@ -1,11 +1,11 @@
 {
-  "name": "GPT 娘 · 雅",
+  "name": "GPT娘",
   "slug": "gpt-niang",
-  "version": "1.0.0",
-  "description": "原画风半身 GPT 娘：白发紫瞳、龙角与淡紫龙翼，举止儒雅端庄。原跃起动作已替换为轻颔首致意。",
+  "version": "1.1.0",
+  "description": "原画风半身 GPT娘：白发紫瞳、龙角与淡紫龙翼，以更浅的颔首、安静思考和克制手势陪伴工作。",
   "share_url": "https://chatgpt.com/s/sharepet_6ad9cc9be0548191b707c78f5fa5a964",
   "spritesheet": "assets/gpt-niang-spritesheet.png",
-  "sha256": "7c1596de5b163a45ca95bb980045afc8363f9c1a0ebb48aab9af67171c3e474c",
+  "sha256": "1dac852d1101f28ba7b5faed314240c5c5816c2e78e9e414c73a88cdcfc4aa45",
   "sprite_version": 2,
   "width": 1536,
   "height": 2288,
@@ -97,8 +97,8 @@
         140,
         280
       ],
-      "visual_semantics": "courteous-nod",
-      "notes": "原 jumping 槽保留五帧结构，视觉改为双手交叠、垂眸轻颔首；没有腾空跳跃。"
+      "visual_semantics": "subtle-courteous-nod",
+      "notes": "轻微垂眸和浅颔首，双手与躯干保持稳定，不腾空。"
     },
     {
       "row": 5,
@@ -142,7 +142,8 @@
         120,
         120,
         220
-      ]
+      ],
+      "notes": "双手交叠腰前，以细微目光变化表现专注，不再反复抬手托腮。"
     },
     {
       "row": 8,
@@ -182,6 +183,28 @@
     "rows": [
       9,
       10
+    ]
+  },
+  "client_constraints": {
+    "cell_resolution_fixed": true,
+    "non_idle_repeat_count": 3,
+    "idle_cycle_ms": 6600,
+    "extra_inbetween_frames": false,
+    "client_modified": false,
+    "notes": "Observed installed client; source files cannot change these playback settings."
+  },
+  "source_previews": {
+    "cell_width": 512,
+    "cell_height": 555,
+    "native_frames_upscaled": false,
+    "valid_pets_upload": false,
+    "files": [
+      "previews/source-courteous-nod.gif",
+      "previews/source-thinking.gif"
+    ],
+    "preview_canvas": [
+      512,
+      603
     ]
   }
 }

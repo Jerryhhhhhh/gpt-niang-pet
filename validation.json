@@ -1,13 +1,15 @@
 {
   "valid": true,
-  "sha256": "7c1596de5b163a45ca95bb980045afc8363f9c1a0ebb48aab9af67171c3e474c",
-  "file_size_bytes": 3218230,
+  "version": "1.1.0",
+  "name": "GPT娘",
+  "sha256": "1dac852d1101f28ba7b5faed314240c5c5816c2e78e9e414c73a88cdcfc4aa45",
+  "file_size_bytes": 3320461,
   "mime_type": "image/png",
   "width": 1536,
   "height": 2288,
-  "sprite_version": 2,
   "cell_width": 192,
   "cell_height": 208,
+  "sprite_version": 2,
   "required_frames": 73,
   "frames_per_row": [
     6,
@@ -31,20 +33,23 @@
     "independent_visual_review": true,
     "blind_direction_review": true
   },
+  "motion": {
+    "row4_semantics": "subtle-courteous-nod",
+    "all_standard_loop_endpoints_identical": true,
+    "idle_visible_height_before_px": 176,
+    "idle_visible_height_after_px": 194,
+    "native_resize_passes": 1,
+    "native_resolution_unchanged": true
+  },
   "blind_review": {
     "reviewers": 3,
     "pairs": 14,
     "errors": []
   },
-  "motion": {
-    "row4_semantics": "courteous-nod",
-    "body_baseline_variation_px": 1,
-    "landing_delta_px": 0,
-    "maximum_look_center_drift_px": 2.5,
-    "maximum_look_width_ratio": 1.2233009708737863
-  },
   "review_notes": [
-    "原 jumping 槽按创作者要求改为静稳的颔首致意，未要求腾空位移；结构、帧数与其他质量检查保持不变。",
-    "部分转向相邻帧的差异指标较高；独立视觉复核确认位置和脸部高度稳定，未见阻断级跳变。"
+    "颔首更浅；思考时双手保持腰前，移除反复托腮动作。",
+    "仍有少量发梢和衣褶抖动，不宣称完全连续平滑。",
+    "客户端固定帧数及三轮播放未改变；源分辨率预览不可作为Pets上传格式。",
+    "部分相邻视线差异指标偏高，独立复核未见阻断级位置跳变。"
   ]
 }
